@@ -27,12 +27,16 @@ public class teleport : MonoBehaviour {
 		WaitForSeconds (1);
 		sth.transform.position = gate.transform.position;
 		*/
-		if ( sth.tag == "pickable") {
+		if (sth.tag == "pickable") {
 
-			playerIsNear = true;
+
 			ppl = sth.gameObject;
 			itemisNear = true;
+		} else if (sth.tag == "Player") {
+			playerIsNear = true;
+
 		}
+
 
 	}
 	void OnTriggerStay(Collider sth){
@@ -48,10 +52,12 @@ public class teleport : MonoBehaviour {
 	{
 		if (sth.tag == "pickable") {
 			
-			playerIsNear = false;
-			itemisNear = false;
-		}
 
+			itemisNear = false;
+		} else if (sth.tag == "Player") {
+
+			playerIsNear = true;
+		}
 
 	}
 
