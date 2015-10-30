@@ -10,7 +10,7 @@ Highlighting Controller will add Highlightable Object script to this game object
 Highlightable Object script is a little bit bizarre. The good thing is it has some really helpful comments by the author to help understand this script.
 Try to digest it slowly.
 
-Read the doc in HighlightingSystemDemo folder will definitely help.
+Reading the doc in HighlightingSystemDemo folder will definitely help.
 
 There are some unnecessary features in the 4 scripts.
 For example, if you click the object then the object is gonna start to flash.
