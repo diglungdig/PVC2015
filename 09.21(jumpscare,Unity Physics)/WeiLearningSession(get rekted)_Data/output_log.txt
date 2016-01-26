@@ -1,0 +1,29 @@
+Initialize engine version: 5.1.0f3 (ec70b008569d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Learning Session2\WeiLearningSession(get rekted)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
