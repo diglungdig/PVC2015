@@ -102,8 +102,8 @@ namespace VRStandardAssets.Menu
 
                 // Load the level or canvas.
 
-
-                SceneManager.LoadScene(1, LoadSceneMode.Single);
+                GameObject.Find("gameLoader").GetComponent<ScreenFaderInOut>().loadLevelIndex = 1;
+                //SceneManager.LoadScene(1, LoadSceneMode.Single);
             }
         }
     }

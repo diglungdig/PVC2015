@@ -1,0 +1,2241 @@
+﻿Revert "delete all metas"
+
+This reverts commit 3a6861fa48f7df9d9384c426e8bafd4769609573.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch NewMaster
+# Your branch is up-to-date with 'origin/NewMaster'.
+#
+# Changes to be committed:
+#	new file:   ProjectFiles/Assets/-Sprites.meta
+#	new file:   ProjectFiles/Assets/-Sprites/26281-200.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/27-512.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/9156.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/IMG_7069.JPG.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MainMenuUI.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MainMenuUI/bwLarge.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MainMenuUI/render.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MainMenuUI/renderBlackWhite.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprite.PNG.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/Capture.PNG.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/ExamplesSkybox 1.exr.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/ExamplesSkybox.exr.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/Free-C4D-Sci-Fi-Space-Helmet-Model.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/HelmetConcept.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/Next_Arrow.svg.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/RobotConcept.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/chrome_orb_by_hendo_1-d5cytby.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/flash_646895_largest_crop.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/floor1.jpeg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/floor2.jpeg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/floor3.jpeg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/logo.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/pen_tool_drawing_edit_sketch_flat_icon-512.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/presentationA.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/MenuSprites/support1.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Network-Shield-icon.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Photos.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Photos/10413372_10208214786391333_6756970626379700549_n.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Photos/1098084_10208214785591313_8144663242602692500_n.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Photos/12509907_10208214787031349_1590521756069346325_n.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Photos/8157_10208214785871320_8070213757282228992_n.jpg.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Slums_Minimap_BOII.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/SoftwareIcons-53-512.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/Warning.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/eve_online_khanid_kingdom_by_hegemon4hire-d2yxzfi.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/green_circle.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/ins1.PNG.meta
+#	new file:   ProjectFiles/Assets/-Sprites/map-location-placeholder-pin-on-map-flat-icons-1410266411nk4g8.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/nostromo_logo_by_cmdrkerner-d39qyhp.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/setting-icon.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/thin-0233_hand_fingers_grab_touch-512.png.meta
+#	new file:   ProjectFiles/Assets/-Sprites/thin-0575_out_exit_emergency_logout-512.png.meta
+#	new file:   ProjectFiles/Assets/64 flat icons.meta
+#	new file:   ProjectFiles/Assets/64 flat icons/png.meta
+#	new file:   ProjectFiles/Assets/64 flat icons/png/128px.meta
+#	new file:   ProjectFiles/Assets/64 flat icons/png/128px/Inventory_Moneybag.png.meta
+#	new file:   ProjectFiles/Assets/Allsky.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_DeepBlack/menuSkybox.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_0_Front+Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_1_Back-Z.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_2_Left+X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_3_Right-X.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_4_Up+Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_5_Down-Y.png.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red.mat.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red.unity.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red/SkyboxProbe-0.exr.meta
+#	new file:   ProjectFiles/Assets/Allsky/allsky_readme.txt.meta
+#	new file:   ProjectFiles/Assets/Animations.meta
+#	new file:   ProjectFiles/Assets/Animations/Hanger_Deck_Main.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/Helmet.fbm.meta
+#	new file:   ProjectFiles/Assets/Animations/Helmet.fbm/Helment_texture.jpg.meta
+#	new file:   ProjectFiles/Assets/Animations/Helmet.fbx.meta
+#	new file:   ProjectFiles/Assets/Animations/LOGOflashing.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/MenuBg.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/New Animator Override Controller.overrideController.meta
+#	new file:   ProjectFiles/Assets/Animations/Shade.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/Sphere.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/cubeBack.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/cubeMove.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/cubeRot.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/defaultNavgation.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/hoverOnGame.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/newRotateVkit.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/openVkit.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/panelFadein.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/panelFadeout.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/releaseSlowField.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/rotating.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/storeIn.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/storeIt.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/switchOn.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/test1.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/turnOffCameraEffect.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/turnOnCameraEffect.anim.meta
+#	new file:   ProjectFiles/Assets/Animations/vkit.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/vkitHolder.controller.meta
+#	new file:   ProjectFiles/Assets/Animations/vkitRotate 1.anim.meta
+#	new file:   ProjectFiles/Assets/Aubergine.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Store Demos.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Store Demos/Hologram Shader.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Store Demos/Hologram Shader/Diffuse-Hologram.shader.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Textures.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Textures/Core.meta
+#	new file:   ProjectFiles/Assets/Aubergine/Textures/Core/Hologram02.jpg.meta
+#	new file:   ProjectFiles/Assets/Bare0018.meta
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_COLOR.png
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_DISP.png
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_NRM.png
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_OCC.png
+#	new file:   ProjectFiles/Assets/Bare0018/MetalFloorsBare0018_1_S_OCC.png.meta
+#	new file:   ProjectFiles/Assets/Chronos.meta
+#	new file:   ProjectFiles/Assets/Chronos/Changelog.pdf.meta
+#	new file:   ProjectFiles/Assets/Chronos/Documentation.pdf.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/Example.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/Example.unity.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/Example/NavMesh.asset.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleAnimation.fbx.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleAnimationRun.fbx.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleBaseBehaviour.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleBubble.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleBubble.mat.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleController.controller.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleMusic.wav.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleNavigator.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleOccurrences.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExamplePhysics.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExamplePrefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleSlider.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleSlider.cs.rej.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleSpin.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleTimeColor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/ExampleWhite.mat.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/Materials.meta
+#	new file:   ProjectFiles/Assets/Chronos/Example/Materials/EthanWhite.mat.meta
+#	new file:   ProjectFiles/Assets/Chronos/Limitations.pdf.meta
+#	new file:   ProjectFiles/Assets/Chronos/Migration.pdf.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ChronosComponentAction.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Example.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Example/ExamplePlayMaker.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Example/ExamplePlayMaker.unity.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Example/ExamplePlayMaker/NavMesh.asset.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/GetBaseSpeed.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/GetClockInfo.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/GetGlobalClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/GetTimelineInfo.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/PauseClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/AddForce2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/AddTorque2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/GetMass2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/GetSpeed2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/GetVelocity2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/IsKinematic2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/SetIsKinematic2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/SetMass2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 2D/SetVelocity2d.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/AddExplosionForce.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/AddForce.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/AddTorque.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/GetMass.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/GetSpeed.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/GetVelocity.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/IsKinematic.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/SetDrag.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/SetIsKinematic.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/SetMass.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/SetVelocity.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Physics 3D/UseGravity.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ReleaseAreaClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ReleaseTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ScaleClockTime.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ScaleClockTimeSmoothly.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ScaleGlobalClockTime.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/ScaleGlobalClockTimeSmoothly.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/Schedule.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/SetBaseSpeed.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/PlayMaker/TimelineStateSwitch.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Readme.txt.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/AreaClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/AreaClock2D.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/AreaClock3D.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/ChronosException.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Clock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/ComponentTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/CustomRecorder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls/Editor.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls/Editor/Extensions.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls/Editor/PopupGUI.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls/Editor/PopupOption.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Controls/LICENSE.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/AnimatorParameter.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/AnimatorParameterDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/Extensions.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/TargetedDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/UnityMemberDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/UnityMethodDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/UnityObjectType.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Editor/UnityVariableDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/FilterAttribute.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/LICENSE.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/SelfTargetedAttribute.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/TypeFamily.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/UnityMember.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/UnityMethod.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/UnityVariable.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Utilities.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Utilities/Extensions.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/Reflection/Utilities/TypeSerializer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/ElementAdderMenuBuilder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/ElementAdderMenuCommandAttribute.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/ElementAdderMeta.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/GenericElementAdderMenu.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/GenericElementAdderMenuBuilder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/IElementAdder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/IElementAdderMenu.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/IElementAdderMenuBuilder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Element Adder Menu/IElementAdderMenuCommand.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/GenericListAdaptor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/IReorderableListAdaptor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/IReorderableListDropTarget.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Internal.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Internal/GUIHelper.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Internal/ReorderableListResources.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/Internal/SerializedPropertyUtility.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/LICENSE.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/ReorderableListControl.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/ReorderableListEvents.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/ReorderableListFlags.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/ReorderableListGUI.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/ReorderableListStyles.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Dependencies/ReorderableList/Editor/SerializedPropertyAdaptor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/AreaClock2DEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/AreaClock3DEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/AreaClockEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/ClockEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/CustomRecorderEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/GlobalClockDrawer.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/GlobalClockEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/LocalClockEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/TimekeeperEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Editor/TimelineEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/GlobalClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/GlobalClockAttribute.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/LocalClock.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Occurrences.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Occurrences/DelegateOccurrence.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Occurrences/ForwardDelegateOccurrence.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Occurrences/Occurrence.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Recorder.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/RecorderTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/TimeState.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timekeeper.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/AnimationTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/AnimatorTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/AudioSourceTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/IParticleSystemTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/NavMeshAgentTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/NonRewindableParticleSystemTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/RewindableParticleSystemTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/RigidbodyTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/RigidbodyTimeline2D.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/RigidbodyTimeline3D.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/TransformTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Timelines/WindZoneTimeline.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Utilities.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Utilities/Editor.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Utilities/Editor/AddonDetector.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Utilities/Severity.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Source/Utilities/Singleton.cs.meta
+#	new file:   ProjectFiles/Assets/Chronos/Tutorial.pdf.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Editor.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Editor/CinemaSuiteWelcome.cs.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Editor/ProductInfo.cs.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/CMFLogo.jpg.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/CinemaSuite_WelcomeSkin.guiskin.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/CinemaSuite_WelcomeSkin_Light.guiskin.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Content_BG.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Content_Light_BG.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Docs_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Docs_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Facebook_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Facebook_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Forums_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Forums_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Header_BG.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Header_Light_BG.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Logo_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Logo_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Store_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Store_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Tips_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Tips_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Twitter_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Twitter_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Video_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Video_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Web_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Web_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Youtube_Personal.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/Cinema_Suite_Youtube_Pro.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/DirectorKeyImage.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/MocapKeyImage.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/ProCamsKeyImage.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/ThemesGetItFree.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/About/Resources/ThemesKeyImage.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Documentation.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Documentation/CinemaThemesDocumentation.pdf.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor/CinemaThemesProductInfo.cs.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor/CinemaThemesWindow.cs.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor/Resources.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor/Resources/Director_PickerIcon.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/Editor/Resources/Director_PickerIcon_Dark.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/19603D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Action3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/AlienInvasion3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/AlienWorld3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Arctic3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/BadFilm3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Beach3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Bit1Channel3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Bit3Channels3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/BleachBypass3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/BrokenDigital3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/CrossProcess3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Cyberpunk3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Dark3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/DayForNight3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Documentary3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Dreadful3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Dream3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Endgame3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/FinalBattle3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Fincher3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Fire3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Flashback3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Hackers3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/HeatSignature3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Hipster3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Hitchcock3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Hollywood3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Horror3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/HotSun3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Icefall3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Intensity3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Matrix3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Millennium3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Minimalist3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/ModernRetro3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/MusicVideo3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Nature3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Negative3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/NeonWorld3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Noire3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/NotEnoughBits3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/OldCountry3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/OrangeTeal3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Pike3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Posterize3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Punchy3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/PurpleHaze3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Rads3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Rainbow3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/RedAndBlue3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/RedRoom3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/RobotVision3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Romantic3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Saw3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/SciFi3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Sepia3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/SinCity3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Slumber3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/TexMex3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Toxic3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/TritonePurple3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Underwater3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Vault1013D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Vintage3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/War3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Warm3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Weathered3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/LUTs/Winterfell3D16.png.meta
+#	new file:   ProjectFiles/Assets/Cinema Suite/Cinema Themes/ReadMe.txt.meta
+#	new file:   ProjectFiles/Assets/Combined.meta
+#	new file:   ProjectFiles/Assets/Combined/Combined_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Combined/Combined_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Combined/Combined_Emission_Map.png.meta
+#	new file:   ProjectFiles/Assets/Combined/Combined_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Corner.meta
+#	new file:   ProjectFiles/Assets/Corner/CornerTile_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/CsharpScript.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/GrabAndDrop.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/automaticDoor.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/collisionCheck.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/computerInterface.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/inputScirpt.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/inputchange.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/inspect.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/inspectSystem.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/interfaceControl.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/item.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/mapControl.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/onmouse.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/timer.cs.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/timerCountDown.js.meta
+#	new file:   ProjectFiles/Assets/CsharpScript/tree.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Materials.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Materials/UI-Cylinder.mat.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Materials/UI-CylinderFont.mat.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Materials/UI-SinWave.mat.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Materials/UI-SinWaveFont.mat.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scenes.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scenes/CylinderUI.unity.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scenes/SinWaveUI.unity.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/CanvasMapping.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/CylinderMapping.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/MappedGraphicMaterialModifier.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/MappedGraphicRaycaster.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/SideToSide.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Scripts/Spin.cs.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/CylinderMapping.cginc.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/SinWaveMapping.cginc.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/UI-Cylinder.shader.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/UI-CylinderFont.shader.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/UI-SinWave.shader.meta
+#	new file:   ProjectFiles/Assets/CurvedUI/Shaders/UI-SinWaveFont.shader.meta
+#	new file:   ProjectFiles/Assets/Double Sided Shaders.meta
+#	new file:   ProjectFiles/Assets/Double Sided Shaders/Double Sided Emissive Diffuse.shader.meta
+#	new file:   ProjectFiles/Assets/Double Sided Shaders/Double Sided Standard Diffuse Bump.shader.meta
+#	new file:   ProjectFiles/Assets/Double Sided Shaders/Double Sided Transparent Diffuse Bump Cutout.shader.meta
+#	new file:   ProjectFiles/Assets/Double Sided Shaders/Double Sided Transparent Diffuse Bump.shader.meta
+#	new file:   ProjectFiles/Assets/Editor.meta
+#	new file:   ProjectFiles/Assets/Editor/CrossPlatformInput.meta
+#	new file:   ProjectFiles/Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/AntialiasingEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/BloomEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/CreaseShadingEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/DepthOfFieldEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/EdgeDetectionEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/SunShaftsEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/TonemappingEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Bumped Specular.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Specular.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Transparent Bumped Diffuse.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Transparent Bumped Specular Detail.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Transparent Bumped Specular.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Transparent Diffuse.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon Transparent Specular.shader.meta
+#	new file:   ProjectFiles/Assets/Editor/Simplygon.dll.meta
+#	new file:   ProjectFiles/Assets/Editor/SimplygonReadMe.txt.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Materials.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Materials/Skybox_Clouds01.mat.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Materials/Skybox_Clouds02.mat.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Materials/Skybox_Clouds03.mat.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Materials/Skybox_Clouds04.mat.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Textures.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Textures/clouds01.png.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Textures/clouds02.png.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Textures/clouds03.png.meta
+#	new file:   ProjectFiles/Assets/Escape Velocity/Skybox/Textures/clouds04.png.meta
+#	new file:   ProjectFiles/Assets/EventSystem.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Antenna_lg.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Battery_double.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Battery_single.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/BillboardSquare.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/BoxBeltFlat_Asym.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/BoxBeltLG_asym.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/BoxBeltLG_sym.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/BoxSideRound.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Box_big_base.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Box_big_cap.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Box_big_tall.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Camera3.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Camera3_R.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Contrafort_small.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Flattube_base.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Flattube_cap.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Flattube_short_mini.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Flattube_tall.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_Base.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_CornerFront.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_CornerSide.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_Junction_3way.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_Long.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Girder_Short.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Hydraulic_diagonal_tall.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Pipe_long_ends_bent_same1.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Pipe_long_straight1.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Pipe_pipe_corner.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Vent_Big.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Vent_cylinder_lg.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_half_short_L.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_half_short_R.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_single_back_L.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_single_back_R.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_single_forward_L.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/!Prefabs/Wheel_single_forward_R.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/AdditiveTint.shader.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Antenna_lg.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Battery_double.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Battery_single.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/BillboardSquare.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Billboard_ShortADD.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/BoxBeltFlat_Asym.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/BoxBeltLG_asym.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/BoxBeltLG_sym.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/BoxSideRound.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Box_big_base.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Box_big_cap.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Box_big_tall.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Camera3.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Camera3_R.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Contrafort_small.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Flattube_base.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Flattube_cap.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Flattube_short_mini.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Flattube_tall.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_Base.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_CornerFront.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_CornerSide.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_Junction_3way.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_Long.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Girder_Short.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Hydraulic_diagonal_tall.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/LightCone.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Materials/No Name.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Pipe_long_ends_bent_same1.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Pipe_long_straight1.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Pipe_pipe_corner.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Vent_Big.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Vent_cylinder_lg.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_half_short_L.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_half_short_R.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_half_short_tri_L.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_half_short_tri_R.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_single_back_L.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_single_back_R.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_single_forward_L.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/FBX/Wheel_single_forward_R.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Background_Grid.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Mod4BillBoardLongAdd.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Mod4BillBoardShortAdd.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Mod4Lightcone.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Mod4_blocks.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Materials/Mod4_parts.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/SCI-Fi Modular Pack.unity.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Background_Grid.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/BillboardLongAdd.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/BillboardShortAdd.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Mod4Lightcone.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Mod4_blocks.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Mod4_blocks_NRM.png.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Mod4_parts.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/!SCI_FI_Modular_Pack_Free/Textures/Mod4_parts_NRM.png.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth01-Blue_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth01_DNRM.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth02-Tan_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth02-Teal_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth02_DNRM.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth03-Grey_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth03-Orange_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Cloth/Cloth03_DNRM.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather01_Brown_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather01_DNRM.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather01_OffWhite_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02-Purple_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02-Teal_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02-Yellow_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02Red_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02_Black_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02_Brown_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02_DNRM.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02_OffWhite_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Detail Maps/Leather/Leather02_Tan_DALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/LoungeChair-001-Modern-Readme.txt.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/LoungeChair-001-Modern.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Cloth01-Blue.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Cloth02-Tan.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Cloth02-Teal.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Cloth03-Grey.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Cloth03-Orange.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather01-Brown.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather01-OffWhite.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Black.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Brown.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-OffWhite.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Purple.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Red.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Tan.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Teal.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Materials/LoungeChair-001-Leather02-Yellow.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Meshes.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Meshes/LoungeChair-001-Modern.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/LoungeChair-001-Modern-Cloth_MTL.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/LoungeChair-001-Modern-Leather_MTL.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/LoungeChair-001-Modern_ALB.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/LoungeChair-001-Modern_OCC.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/PSDs.meta
+#	new file:   ProjectFiles/Assets/FBX/Immerse/Immerse Assets/Models/LoungeChair-001-Modern/Textures/PSDs/LoungeChair-001-Modern.psd.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack/Materials/Material.001.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack/Materials/Material.002.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack/Materials/No Name.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Jetpack/jetpack.fbx.meta
+#	new file:   ProjectFiles/Assets/FBX/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/Materials/FrontColor.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Materials/lambert1.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Materials/phong_material_glass_1.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Materials/defaultMat.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Ship_2.obj.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Ship_2.prefab.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Ship_2_Diffuse.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/Ship_2_Normal.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/SpaceShips/SpaceShip2/SpaceShip2.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Tiny Planets.meta
+#	new file:   ProjectFiles/Assets/FBX/Tiny Planets/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/Tiny Planets/Materials/TinyPlanets_01.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/Tiny Planets/TinyPlanets_01.tga.meta
+#	new file:   ProjectFiles/Assets/FBX/picture_frame_1.fbm.meta
+#	new file:   ProjectFiles/Assets/FBX/picture_frame_1.fbm/picture_frame_1.fbm.meta
+#	new file:   ProjectFiles/Assets/FBX/picture_frame_1.fbm/picture_frame_1.fbm/picture_frame_texture_1.png.meta
+#	new file:   ProjectFiles/Assets/FBX/picture_frame_1.fbm/picture_frame_1.fbx.meta
+#	new file:   ProjectFiles/Assets/FBX/picture_frame_1.fbm/picture_frame_texture_1.png.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/MainBall_text.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/cylinder_text.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/eye.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/eyecover.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/shell_texture2.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/Materials/support_blinn.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/New Material.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm/MainBall_text.jpg.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm/cylinder_text.jpg.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm/eye.jpg.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm/eyecover.png.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbm/shell_texture2.jpg.meta
+#	new file:   ProjectFiles/Assets/FBX/robotM/robot_6.fbx.meta
+#	new file:   ProjectFiles/Assets/FBX/table.meta
+#	new file:   ProjectFiles/Assets/FBX/table/Materials.meta
+#	new file:   ProjectFiles/Assets/FBX/table/Materials/Arch_056_056_0123.mat.meta
+#	new file:   ProjectFiles/Assets/FBX/table/roche bobois furtif desk.FBX.meta
+#	new file:   ProjectFiles/Assets/FBX/terminal_1.fbx.meta
+#	new file:   ProjectFiles/Assets/FBX/terminal_1_broken.fbx.meta
+#	new file:   ProjectFiles/Assets/FBX/windowTile.fbx.meta
+#	new file:   ProjectFiles/Assets/Floor 2.prefab.meta
+#	new file:   ProjectFiles/Assets/Fonts.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/256 bytes.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/6809 chargen.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/Pricedown bl.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/Pricedown bl/pricedown bl.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/astron boy video.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/astron boy wonder.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/astron boy.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/betsy flanagan 2.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/betsy flanagan.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/borg9.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/boron.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/crystal radio kit.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/dignity of labour.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/fabian.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/failed attempt.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/fake receipt.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/frozdotre.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/golden girdle.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/horsepower.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/hydrogen whiskey.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/karma future.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/karma suture.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/lady starlight.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/lilliput steps.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/minisystem.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/orange kid.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/paraaminobenzoic.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/quadaptor.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/saved by zero rg.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/sayso chic.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Computer Pack/v dub.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack/biometric joe.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack/bramalea beauty.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack/highway to heck.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack/mold papa.ttf.meta
+#	new file:   ProjectFiles/Assets/Fonts/Grunge pack/wild sewerage.ttf.meta
+#	new file:   ProjectFiles/Assets/GazePointerRing.prefab.meta
+#	new file:   ProjectFiles/Assets/Gizmos.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/AreaClock.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Clock.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Coroutine.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/ForwardOccurrence.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/GlobalClock.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/LocalClock.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Occurrence.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Recorder.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Timekeeper.png.meta
+#	new file:   ProjectFiles/Assets/Gizmos/Chronos/Timeline.png.meta
+#	new file:   ProjectFiles/Assets/Hangar.prefab.meta
+#	new file:   ProjectFiles/Assets/HangarMockup_v06.fbx.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Combined.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Combined/Combined_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Combined/Combined_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Combined/Combined_Emission_Map.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Combined/Combined_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/HalfTFinal.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/HalfTFinal/HalfTFinal_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Hanger_Deck_Main.dae.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials/LampTile.mat.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials/LightEmitter.mat.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials/SideAndBottom.mat.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials/SpaceTileBasic.mat.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Mesh/Materials/SpaceTileMiddle.mat.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR.png
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR_NRM.png
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/MetalTileSpacey/MetalTileSpacey_COLOR_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Hanger_Deck_Main/Prefabs/Hanger_Deck_Main.prefab.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Dummys.FBX.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/GroundBlack.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/GroundWhite.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/No Name.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/Polyhedron.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/Robot_Color.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/Transparent.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Materials/TransparentCutout.mat.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Robot Kyle.fbx.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Textures.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Textures/AlphaMask.png.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Textures/Polyhedron.psd.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Textures/Robot_Color.png.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Assets/Textures/Robot_Normal.png.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Documentation.pdf.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Colors.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Compound.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Occluders.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Scripting.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Transparency.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scenes/Welcome.unity.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/BooHighlightingController.boo.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/CameraTargeting.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/CompoundObjectController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/DelayedDestroyController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/FlashingController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/HighlightingController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/JSHighlightingController.js.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/OccluderController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/RotationController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/SceneLoader.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/SpectrumController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/StaticOccluderController.cs.meta
+#	new file:   ProjectFiles/Assets/HighlightingSystemDemo/Scripts/WallMovementController.cs.meta
+#	new file:   ProjectFiles/Assets/JMO Assets.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/Editor.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/Editor/JMOAssets.dll.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/MatCap Shaders.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/MatCap Shaders/Demo.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/MatCap Shaders/Demo/Assets.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/MatCap Shaders/Demo/Assets/MC_AutoRotate.cs.meta
+#	new file:   ProjectFiles/Assets/JMO Assets/MatCap Shaders/Demo/Assets/MC_SwitchTexture.cs.meta
+#	new file:   ProjectFiles/Assets/Junks.meta
+#	new file:   ProjectFiles/Assets/Junks/26281-200.png.meta
+#	new file:   ProjectFiles/Assets/Junks/27-512.png.meta
+#	new file:   ProjectFiles/Assets/Junks/3.PNG.meta
+#	new file:   ProjectFiles/Assets/Junks/9156.png.meta
+#	new file:   ProjectFiles/Assets/Junks/Bgbg.PNG.meta
+#	new file:   ProjectFiles/Assets/Junks/ButtonTimescaleSlowUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Junks/Network-Shield-icon.png.meta
+#	new file:   ProjectFiles/Assets/LODs.meta
+#	new file:   ProjectFiles/Assets/LODs/PendingLODs.meta
+#	new file:   ProjectFiles/Assets/LODs/ScaledShipStandIn_Me_20160202_161628.meta
+#	new file:   ProjectFiles/Assets/LODs/ScaledShipStandIn_Me_20160202_161628/Materials.meta
+#	new file:   ProjectFiles/Assets/LODs/ScaledShipStandIn_Me_20160202_161628/ScaledShipStandIn_Me_LOD1.prefab.meta
+#	new file:   ProjectFiles/Assets/LODs/ScaledShipStandIn_Me_20160202_161628/ScaledShipStandIn_Me_LOD2.prefab.meta
+#	new file:   ProjectFiles/Assets/LODs/ScaledShipStandIn_Me_20160202_161628/ScaledShipStandIn_Me_LODGroup.prefab.meta
+#	new file:   ProjectFiles/Assets/MadeByWei.meta
+#	new file:   ProjectFiles/Assets/MadeByWei/BackGroundGalaxies.prefab.meta
+#	new file:   ProjectFiles/Assets/MadeByWei/BackgroundObjects.prefab.meta
+#	new file:   ProjectFiles/Assets/MadeByWei/BackgroundParticles 1.prefab.meta
+#	new file:   ProjectFiles/Assets/MadeByWei/Galaxy_Medium.controller.meta
+#	new file:   ProjectFiles/Assets/MadeByWei/galaxyRot.anim.meta
+#	new file:   ProjectFiles/Assets/MainMenu.unity.meta
+#	new file:   ProjectFiles/Assets/Materials.meta
+#	new file:   ProjectFiles/Assets/Materials/BasicOutside.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/BasicTile.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Bloom.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Blue.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/BoxTexture1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/BrushedMetalRim.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Chair&Player.controller.meta
+#	new file:   ProjectFiles/Assets/Materials/Corner.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/FrontColor.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/GazePointer.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/GazePointerParticle.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Glass.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/GotoCanvas.anim.meta
+#	new file:   ProjectFiles/Assets/Materials/Green.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Helment_texture.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/HelmetMainPlastic.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/IconMat.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/Concept1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/Concept2.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/Floor1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/Floor2.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/PVCLogo2.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MenuMaterials/floor3.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MetalTileLight.mat
+#	new file:   ProjectFiles/Assets/Materials/MetalTileLight.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MetalTileSpacey.mat
+#	new file:   ProjectFiles/Assets/Materials/MetalTileSpacey.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/MetalTrim.mat
+#	new file:   ProjectFiles/Assets/Materials/MetalTrim.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/New Material 1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/New Material 2.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/New Material 3.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/New Material.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ReadyIcon.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Red.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/SIMPLE.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_engine_cover1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_gate1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_green1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_light1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_propulsion1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_red1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/ScaledShipStandIn_Falcon_t45_Rescue_ship_flying_default_windows_ship3.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/StraightCornerTrim.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Substances_Free.meta
+#	new file:   ProjectFiles/Assets/Materials/Substances_Free/Substance_Free_Collection_sbsar.meta
+#	new file:   ProjectFiles/Assets/Materials/Substances_Free/Substance_Free_Collection_sbsar/Stones_01.sbsar.meta
+#	new file:   ProjectFiles/Assets/Materials/Support_MAT.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Support_MAT15.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/Yellow.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/backKey.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/borderMat.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/cx1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/dc1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/defaultSkybox.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/disableIcon.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/doorMat.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/doubleSide.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/drag.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/glassMaterial.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/glass_blinn.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/grab.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/hologramMat.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/instructionSign.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/itemStored.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/lambert1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/lambert3.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/littlepart.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/picture_frame_texture_1.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/radialspec_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Materials/reticleGUI.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/reticleOutline.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/skybox.PNG.meta
+#	new file:   ProjectFiles/Assets/Materials/staff.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/textMaterial.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/wa3.mat.meta
+#	new file:   ProjectFiles/Assets/Materials/wnd3b.mat.meta
+#	new file:   ProjectFiles/Assets/MenuScript.meta
+#	new file:   ProjectFiles/Assets/MenuScript/CanvasButton.cs.meta
+#	new file:   ProjectFiles/Assets/MenuScript/disableAster.cs.meta
+#	new file:   ProjectFiles/Assets/Meshes.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 01.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 01/Rock 03.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 01/Rock 03/Meshes.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 01/Rock 03/Meshes/Rock 03.obj.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Materials.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Materials/Rocks 02 Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Mesh.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Mesh/Rocks 02.obj.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Textures.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Textures/Rocks 02 diffuse.tga.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 02/Textures/Rocks 02 normal.tga.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Materials.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Materials/Rocks 03 Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Meshes.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Meshes/Rocks 03.obj.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Textures.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Textures/Rocks 03 diffuse.tga.meta
+#	new file:   ProjectFiles/Assets/Meshes/Rocks Pack - Freebies/Rocks 03/Textures/Rocks 03 normal.tga.meta
+#	new file:   ProjectFiles/Assets/OVR.meta
+#	new file:   ProjectFiles/Assets/OVR/Editor.meta
+#	new file:   ProjectFiles/Assets/OVR/Editor/OVRBuild.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Materials.meta
+#	new file:   ProjectFiles/Assets/OVR/Materials/Arrow.mat.meta
+#	new file:   ProjectFiles/Assets/OVR/Materials/CubeMaterial.mat.meta
+#	new file:   ProjectFiles/Assets/OVR/Meshes.meta
+#	new file:   ProjectFiles/Assets/OVR/Meshes/Cone.obj.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Editor.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Editor/OVRMoonlightLoader.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Materials.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Materials/GlobalMenu.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Materials/GlobalMenu/cursor_timer_material.mat.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Materials/GlobalMenu/gaze_cursor.mat.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Materials/VolumePopupMaterial.mat.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Prefabs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Prefabs/GlobalMenu.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Prefabs/GlobalMenu/Cursor_Timer.prefab.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Resources.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Resources/OVRVolumeController.prefab.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Resources/Unlit Transparent Color.shader.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/OVRDebugHeadController.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/OVROverlay.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/OVRPlatformMenu.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/OVRTouchpad.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/OVRVolumeControl.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRChromaticAberration.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRDebugGraph.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRInputControl.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRModeParms.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRMonoscopic.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRResetOrientation.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Scripts/Utils/OVRWaitCursor.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Shaders.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Shaders/OVRColorRampAlpha.shader.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Shaders/Unlit Crosshair.shader.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/GlobalMenu.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/GlobalMenu/color_ramp_timer.tga.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/GlobalMenu/gaze_cursor.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/GlobalMenu/gaze_cursor_timer.tga.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/Volume Controls.meta
+#	new file:   ProjectFiles/Assets/OVR/Moonlight/Textures/Volume Controls/VolumeAtlas.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Prefabs.meta
+#	new file:   ProjectFiles/Assets/OVR/Prefabs/OVRCameraRig.prefab.meta
+#	new file:   ProjectFiles/Assets/OVR/Prefabs/OVRPlayerController.prefab.meta
+#	new file:   ProjectFiles/Assets/OVR/Prefabs/OVRTrackerBounds.prefab.meta
+#	new file:   ProjectFiles/Assets/OVR/Scenes.meta
+#	new file:   ProjectFiles/Assets/OVR/Scenes/Cubes.unity.meta
+#	new file:   ProjectFiles/Assets/OVR/Scenes/Room.unity.meta
+#	new file:   ProjectFiles/Assets/OVR/Scenes/Trivial.unity.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRCameraRig.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRCommon.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRDisplay.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRInput.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRManager.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVROnCompleteListener.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRPlugin.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRProfile.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/OVRTracker.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRDebugInfo.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRGamepadController.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRGridCube.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRPlayerController.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRSceneSampleController.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRScreenFade.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Scripts/Util/OVRTrackerBounds.cs.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/Black.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/Icons.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/Icons/OculusIcon.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/Logos.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/Logos/OculusLogo.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/cube_texture.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/down.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/in.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/left.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/out.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/right.png.meta
+#	new file:   ProjectFiles/Assets/OVR/Textures/up.png.meta
+#	new file:   ProjectFiles/Assets/Objects.meta
+#	new file:   ProjectFiles/Assets/Objects/AC_Lam_Cei_Mod_2313_fbx.FBX.meta
+#	new file:   ProjectFiles/Assets/Objects/Hallway_light.controller.meta
+#	new file:   ProjectFiles/Assets/Objects/LightFlicker.anim.meta
+#	new file:   ProjectFiles/Assets/Objects/Materials.meta
+#	new file:   ProjectFiles/Assets/Objects/Materials/1.mat.meta
+#	new file:   ProjectFiles/Assets/Objects/Materials/2.mat.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/DoorOpen.controller.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/Materials.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/Materials/Glass_MAT.mat.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/Materials/Support_MAT.mat.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/Materials/lambert1.mat.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/SS_Tile_CornerOutside_v05.fbx.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/SS_Tile_Door_v05.1.fbx.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/SS_Tile_Empty_v05.fbx.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/SS_Tile_Straight_v05.fbx.meta
+#	new file:   ProjectFiles/Assets/PVC - Tile File FBX Exports/SS_Tile_WindowSingle_v05.fbx.meta
+#	new file:   ProjectFiles/Assets/Plugins.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/Assets.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/Assets/OSIG_Readme.txt.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/Assets/oculussig_04157df4c1711a0c.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/Assets/oculussig_75dbd033.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/Assets/oculussig_8998d87e.meta
+#	new file:   ProjectFiles/Assets/Plugins/Android/libOculusMediaSurface.so.meta
+#	new file:   ProjectFiles/Assets/Plugins/Editor.meta
+#	new file:   ProjectFiles/Assets/Plugins/Editor/HighlightingSystemEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingComposite.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingInclude.cginc.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingStencilOpaque.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingStencilOpaqueZ.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingStencilTransparent.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Resources/HighlightingStencilTransparentZ.shader.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Scripts.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Scripts/HighlightableObject.cs.meta
+#	new file:   ProjectFiles/Assets/Plugins/HighlightingSystem/Scripts/HighlightingEffect.cs.meta
+#	new file:   ProjectFiles/Assets/Plugins/OVRGamepad.bundle.meta
+#	new file:   ProjectFiles/Assets/Plugins/OVRGamepad.bundle/Contents.meta
+#	new file:   ProjectFiles/Assets/Plugins/OVRGamepad.bundle/Contents/Info.plist.meta
+#	new file:   ProjectFiles/Assets/Plugins/OVRGamepad.bundle/Contents/MacOS.meta
+#	new file:   ProjectFiles/Assets/Plugins/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86/OVRGamepad.dll.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86/XInputDotNetPure.dll.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86/XInputInterface.dll.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86_64.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86_64/OVRGamepad.dll.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86_64/XInputDotNetPure.dll.meta
+#	new file:   ProjectFiles/Assets/Plugins/x86_64/XInputInterface.dll.meta
+#	new file:   ProjectFiles/Assets/Pointers.meta
+#	new file:   ProjectFiles/Assets/Pointers/Meshes.meta
+#	new file:   ProjectFiles/Assets/Pointers/Meshes/HalfRing.asset.meta
+#	new file:   ProjectFiles/Assets/Pointers/Meshes/ring.asset.meta
+#	new file:   ProjectFiles/Assets/Pointers/Textures.meta
+#	new file:   ProjectFiles/Assets/Pointers/Textures/GazeRing.png.meta
+#	new file:   ProjectFiles/Assets/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports/Catwalk.FBX.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports/Materials.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports/Materials/EV_Catwalk_3DC_Catwalk_UV_color.mat.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports/Materials/Platform_DIF.mat.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/FBX_Exports/platform_LOD0.fbx.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/Textures.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/Textures/Catwalk DIF.tga.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/Textures/Catwalk Norm.tga.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Game level and Models/Textures/Platform_DIF.tga.meta
+#	new file:   ProjectFiles/Assets/Prefabs/GazePointerRing.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/HazardTriggerBox(time).prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Item_helmet.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/PlayerHelmet.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/Sphere.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/StartText.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/explositon.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/jetpack.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/prefabBer.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/projectionRobot.prefab.meta
+#	new file:   ProjectFiles/Assets/Prefabs/timeSlowKit.prefab.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/FirstPersonControllerMAN.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/InputDevice.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/MouseLookMAN.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/keyBinding.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/managerMain.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/testInput.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/testScene.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/testScene/FPSControllerMAN.prefab.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/testScene/InputManager.prefab.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/InputManager/testScene/testScene.unity.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/ItemPopUp.prefab.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/LeftBtn.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/ObjData.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/Reticle.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/Reticle/innerOutline.png.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/Reticle/retController.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/Reticle/retControllerOld.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/Reticle/sliderTest.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/RightBtn.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/dataStorage.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/reticleSnap.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/sphereScript.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/testScript.cs.meta
+#	new file:   ProjectFiles/Assets/Ryan-Additions/toggleScript.cs.meta
+#	new file:   ProjectFiles/Assets/ScaledShipStandIn_Mesh1.prefab.meta
+#	new file:   ProjectFiles/Assets/Scripts.meta
+#	new file:   ProjectFiles/Assets/Scripts/HazardForTimeSlow.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRGazePointer.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRInputModule.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRMousePointer.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRPhysicsRaycaster.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRRayPointerEventData.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/OVRRaycaster.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/ParticleGazeCursor.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/Turbulence-Library.meta
+#	new file:   ProjectFiles/Assets/Scripts/Turbulence-Library/Editor.meta
+#	new file:   ProjectFiles/Assets/Scripts/Turbulence-Library/Editor/NoiseCreator.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/Turbulence-Library/Editor/NoiseStrings2D.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/Turbulence-Library/Editor/NoiseStrings3D.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/arrowPointerCollisionCheck.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/blinkingLogo.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/borders.controller.meta
+#	new file:   ProjectFiles/Assets/Scripts/buttonActive.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/canvasInitilization.anim.meta
+#	new file:   ProjectFiles/Assets/Scripts/functionCenter.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/inventorySys.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/logoFlashing.anim.meta
+#	new file:   ProjectFiles/Assets/Scripts/sonicShaderController.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/temporayrSconto.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/testCube.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/testCullOut.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/testMatLerp.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/testMono.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/testingScript.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/timeSlowController.cs.meta
+#	new file:   ProjectFiles/Assets/Scripts/vkitTimeSlow.cs.meta
+#	new file:   ProjectFiles/Assets/Shaders.meta
+#	new file:   ProjectFiles/Assets/Shaders/OutlinedSilhouetted Diffuse.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/Particle Alpha Blend-AfterTrans.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/Particle-Alpha-Premultiply-AfterTrans.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources/Aubergine.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources/Aubergine/Shaders.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources/Aubergine/Shaders/Object.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources/Aubergine/Shaders/Object/BaseFX.meta
+#	new file:   ProjectFiles/Assets/Shaders/Resources/Aubergine/Shaders/Object/BaseFX/Hologram.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Documentation.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Documentation/WireframeShader-Overview.pdf.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials/Rainbow Wireframe.mat.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials/Wireframe Cutout Double-Sided.mat.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials/Wireframe Cutout.mat.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials/Wireframe Double-Sided.mat.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Materials/Wireframe.mat.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders/UCLA GameLab Cutout Wireframe.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders/UCLA GameLab Double-Sided Cutout Wireframe.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders/UCLA GameLab Double-Sided Wireframe.shader.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders/UCLA GameLab Wireframe Functions.cginc.meta
+#	new file:   ProjectFiles/Assets/Shaders/UCLAGameLab/Wireframe/Shaders/UCLA GameLab Wireframe.shader.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/Cube_emis.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/glossyBlackMetal.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/icos.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/mainCubeEmissive.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/orbitingCubeEmissive.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Materials/particleMaterial.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Cube_Base.obj.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Cube_Emissive.obj.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/HelmetStart.anim.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/HelmetStartNew.anim.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/InitializationAnimation.controller.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_pCube26_Cube2_polySurface2 Cube2_polySurface3 polySurface57 polySurface1Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_pCube26_Cube2_polySurface2_Cube2_polySurface3_polySurface57_polySurface1Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_polySurface3_Cube_pCube26 polySurface2 polySurface3Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_polySurface3_Cube_pCube26 polySurface2 polySurface57 polySurface1Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_polySurface3_Cube_pCube26_polySurface2_polySurface3Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/Cube2_polySurface3_Cube_pCube26_polySurface2_polySurface57_polySurface1Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/pSolid1Mat 1.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/pSolid1Mat 2.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/Materials/pSolid1Mat.mat.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/PlayerHelmet.controller.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/PuttingOnHelmet.anim.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/icos.obj.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/icos_overlap.obj.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/newPuttingOn.anim.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Meshes/thridTime.anim.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Prefabs/GlowingOrbitingCube.prefab.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Prefabs/OrbitingCube.prefab.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Prefabs/actualmaincube.prefab.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts/SENBDLCameraAnimation.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts/SENBDLGlobal.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts/SENBDLGlowingOrbitingCube.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts/SENBDLMainCube.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Scripts/SENBDLOrbitingCube.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Textures.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/Textures/separticle.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Demo Scene/demoScene.unity.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Editor.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Editor/SENaturalBloomAndDirtyLensEditor.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Editor/icon.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/GUI.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/GUI/senbdlEditorTex.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt1.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt10.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt11.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt12.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt13.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt14.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt15.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt16.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt2.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt3.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt4.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt5.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt6.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt7.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt8.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Lens Textures/lensDirt9.png.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Scripts.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Scripts/SENaturalBloomAndDirtyLens.cs.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Shaders.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Shaders/SEEmissiveTextured.shader.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Shaders/SENaturalBloomAndDirtyLens.shader.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/Shaders/SEParticlesAdditive.shader.meta
+#	new file:   ProjectFiles/Assets/Sonic Ether/Natural Bloom/User Guide.pdf.meta
+#	new file:   ProjectFiles/Assets/Sound.meta
+#	new file:   ProjectFiles/Assets/Sound/01.mp3.meta
+#	new file:   ProjectFiles/Assets/Sound/Button Click On-SoundBible.com-459633989.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Button-SoundBible.com-1420500901.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Button_Press_2-Marianne_Gagnon-1415267358.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Camera Flash-SoundBible.com-1405282210.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Click On-SoundBible.com-1697535117.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Click2-Sebastian-759472264.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/SoundEffects.meta
+#	new file:   ProjectFiles/Assets/Sound/SoundEffects/Slow Motion Sound Effect.mp3.meta
+#	new file:   ProjectFiles/Assets/Sound/SoundEffects/Tick Tock-SoundBible.com-1165545065.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/SoundEffects/Ticking_Clock-KevanGC-1934595011 (1).wav.meta
+#	new file:   ProjectFiles/Assets/Sound/SoundEffects/descending_craft-Sonidor-991848481.wav.meta
+#	new file:   ProjectFiles/Assets/Sound/Ticking_Clock-KevanGC-1934595011.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep02.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep04.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Audio/Land.wav.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/RollerBall.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/RollerBall/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/ThirdPersonCharacter.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Materials.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Shaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedNormals.tif.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightIrregularCookie.tif.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightCookies/Textures/LightSquareCookie.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Flares.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Flares/Sun.flare.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Materials.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Guidelines.txt.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Materials.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Materials/LightProjector.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Shaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Textures/Falloff.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Textures/Grid.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Textures/Light.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/Projectors/Textures/Shadow.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Materials.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularSmooth.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Models.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Scenes.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Shaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Materials.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasicOutline.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Shaders.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Textures.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Textures/ToonLit.psd.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Effects/ToonShading/Textures/UtilToonGradient.png.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/ParticleSystems.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/ParticleSystems/Scripts.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/ActivateTrigger.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/AutoMoveAndRotate.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/CameraRefocus.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/CurveControlledBob.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/DragRigidbody.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/DynamicShadowSettings.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/EventSystemChecker.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/FOVKick.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/FPSCounter.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/FollowTarget.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/ForcedReset.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/LerpControlledBob.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/ObjectResetter.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/PlatformSpecificContent.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/SimpleMouseRotator.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/SmoothFollow.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/TimedObjectActivator.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/TimedObjectDestructor.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/WaypointCircuit.cs.meta
+#	new file:   ProjectFiles/Assets/Standard Assets/Utility/WaypointProgressTracker.cs.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined/Combined_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined/Combined_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined/Combined_Emission_Map.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined/Combined_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Combined/Combined_SPEC.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/GreyTrim.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/LightTile.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/LightTrim.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/PlainTilePanels.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/SidePanelLight.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Materials/SpaceTileBasic.mat.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Mesh/Starting_Deck_Main_WithThickness.dae.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/MetalTileSpacey.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/MetalTileSpacey/MetalTileSpacey_COLOR.png
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/MetalTileSpacey/MetalTileSpacey_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light/LightTexture_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light/LightTexture_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light/LightTexture_EMIS.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light/LightTexture_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Side_Panel_Light/LightTexture_SPEC.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/Starting_Deck_Main_WithThickness.prefab.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/TilePlain.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/TilePlain/TilePlain_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/TilePlain/TilePlain_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Starting_Room_Deck/TilePlain/TilePlain_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Texture.meta
+#	new file:   ProjectFiles/Assets/Texture/50-free-textures-4+normalmaps.meta
+#	new file:   ProjectFiles/Assets/Texture/50-free-textures-4+normalmaps/168_norm.JPG.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech01.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech01b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech01c.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech02.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech02b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech02c.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech03.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech04.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech04b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech05.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech05b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech05c.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech05d.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech05e.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech06.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech07.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTech08.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/FloorTiles.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall01.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall01b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall01c.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall02.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall02b.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall02c.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/ArtskillZ Store/Free SciFi Textures/Wall03.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey.meta
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR.png
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR_DISP.png.meta
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR_NRM.png
+#	new file:   ProjectFiles/Assets/Texture/MetalTileSpacey/MetalTileSpacey_COLOR_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Texture/Straight.meta
+#	new file:   ProjectFiles/Assets/Texture/Straight/StraightTile_COLOR.png.meta
+#	new file:   ProjectFiles/Assets/Texture/TilePlain.meta
+#	new file:   ProjectFiles/Assets/Texture/TilePlain/SpecialPlain.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds01.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds02.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds03.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds04.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds05.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds06.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds07.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds08.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds09.png.meta
+#	new file:   ProjectFiles/Assets/Texture/clouds10.png.meta
+#	new file:   ProjectFiles/Assets/Texture/texture.jpg.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/email.rtf.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials/tile 1.mat.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials/tile 2.mat.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials/tile 3.mat.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials/tile 4.mat.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/materials/tile 5.mat.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs/tile 1 prefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs/tile 2 prefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs/tile 3 prefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs/tile 4 prefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/prefabs/tile 5 prefab.prefab.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tilable texture pack 1.unity.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 1.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 1/TILE1_Dwiths.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 1/TILE1_N.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 4.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 4/tileable 4_Dwiths.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 4/tileable 4_n.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 5.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 5/TILE5_N.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile 5/TILE5_dwiths.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile2.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile2/tilable2_dwith_s.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile2/tilable2_n.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile3.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile3/tileable 3_dwiths.tga.meta
+#	new file:   ProjectFiles/Assets/Texture/tilable texture pack 1/tile3/tileable 3_n.tga.meta
+#	new file:   ProjectFiles/Assets/VRMenu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/FlyerGUIScale.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/FlyerGUIScale.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/FlyerPlayerGUIScale.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/FlyerPlayerGUIScale.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/GUIArrows.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/IntroCanvas.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/IntroInstructions.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/IntroInstructions.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/MazeGUIScale.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/MazeGUIScale.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/OutroCanvas.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/Shooter180IntroScale.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/GUI/Shooter180OutroScale.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/Chair&Player.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/Menu180ShooterScreen.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/Menu360ShooterScreen.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuFlyerScreen.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuInstructions.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuIntroGUI.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuItem180Shooter.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuItem360Shooter.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuItemFlyer.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuItemMaze.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MenuMazeScreen.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/MoveTo2ndCanvas.anim.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Animations/Menu/VRMenuButtonAnimation.controller.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuClose.aif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuGazeOver.aif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuLoad.aif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuMixer.mixer.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuMusic.aif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Audio/Menu/MenuSelect.aif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/LICENSE.txt.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Black.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Bold.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Light.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Medium.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Regular.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Fonts/Roboto-Thin.ttf.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples/ExampleVisibleSkybox.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples/ExamplesCyan.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples/ExamplesDarkBlue.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples/ExamplesLime.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Examples/ExamplesMagenta.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerAsteroid.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerAsteroidFade.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerGate.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerJetTrail.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerLaser.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerPlayership.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerPlayershipPieces.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Flyer/FlyerSkybox.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/GUI.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/GUI/GUIArrows.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/GUI/GUIBlobShadow.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/GUI/GUILogo.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/GUI/GUIOverlay.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuBg.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuBlobShadow.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuElements.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuFlyerScreen.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuGUISlider.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuLogo.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuMazeScreen.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuParticleCrosshair.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuShooter180Screen.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Menu/MenuShooter360Screen.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleConfetti.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleEmbersWhite.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleFlare.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleGlowWhite.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleGunFlare.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleShockwave.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleThruster.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleTracers.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Particles/ParticleUnityLogo.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Shooter.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Shooter/ShooterBg.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Shooter/ShooterFPSGunFlare.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Shooter/ShooterFPSWeapon.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Shooter/ShooterTarget.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Utils.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Utils/BlobShadow.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Materials/Utils/VRCameraFade.mat.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerAsteroidA.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerAsteroidB.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerAsteroidPieceA.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerAsteroidPieceB.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerAsteroidPieceC.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerGate.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerLaser.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayership.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayershipCollision.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayershipPieceA.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayershipPieceB.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayershipPieceC.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Flyer/FlyerPlayershipPieceD.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/GUI.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/GUI/GUIArrows.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuBg.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuDescription180Shooter.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuDescription360Shooter.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuDescriptionFlyer.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuDescriptionMaze.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuInfo.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuItem180Shooter.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuItem360Shooter.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuItemFlyer.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuItemMaze.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuParticleCrosshair.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Menu/MenuSelector.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/Shooter180Bg.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/Shooter180BgCollision.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/Shooter360Bg.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/Shooter360BgCollision.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/Shooter360BgRailing.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterFPSWeapon.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterFPSWeaponFlare01.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterFPSWeaponFlare02.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterFPSWeaponFlare03.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterTarget.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Models/Shooter/ShooterTargetShatter.fbx.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/GUI.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/GUI/GUIArrows.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/GUI/GUITargetMarker.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuDescription180Shooter.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuDescription360Shooter.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuDescriptionFlyer.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuDescriptionMaze.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuIntroGUI.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuItem180Shooter.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuItem360Shooter.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuItemFlyer.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuItemMaze.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Menu/MenuSelectorChild.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Utils.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Utils/BlobShadow.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Utils/MainCamera.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Utils/SelectionSlider.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Prefabs/Utils/WarningTextCanvas.prefab.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples/InteractiveItem.unity.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples/RenderScale.unity.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples/Reticle.unity.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples/Rotation.unity.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/Examples/Touchpad.unity.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/MainMenu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/MainMenu/LightingData.asset.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scenes/MainMenu/LightmapSnapshot.asset.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Common.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Common/SessionData.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Examples.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Examples/ExampleInteractiveItem.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Examples/ExampleRenderScale.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Examples/ExampleRotation.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Examples/ExampleTouchpad.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Intro.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Intro/IntroManager.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Menu/MenuAnimator.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Menu/MenuButton.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Menu/MenuItemPopout.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Menu/MenuSelectorMover.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/GUIArrows.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/InputWarnings.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/ObjectPool.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/PlatformDependentText.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/Reticle.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/ReturnToMainMenu.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/SelectionRadial.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/SelectionSlider.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/UIFader.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/UIMovement.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/UITint.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/VRCameraFade.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Scripts/Utils/VRCameraUI.cs.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders/PriorityParticleAlpha.shader.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders/SeparableAlpha.shader.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders/SlidingUV.shader.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders/UIOverlay.shader.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Shaders/UnlitTransparentParam.shader.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Examples.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Examples/ExamplesSkybox.exr.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIArrows.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIBlankMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUICircleIndicator.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIExitMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIHealth.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIInteractionMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUILogo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUINavigationMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIPowerMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIReticle.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIReticleSwatch.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUIStartMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUITargetReticle.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUITimer.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/GUITurretMarker.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/GUI/VRIcon.png.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuElementsAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuItemsAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuLogo.png.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuScreenAlpha.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuSkybox.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuUISelectorBG.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Menu/MenuUISelectorFill.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Particles.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Particles/ParticleShockwaveAlpha.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Particles/ParticleSpark.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Particles/ParticleSparkAlpha.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Particles/ParticleStar.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shared.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shared/BgAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shared/BlobShadow.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterBgAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterBlobShadowAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterFPSWeapon2Occlusion.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterFPSWeaponAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterFPSWeaponNormals.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterFPSWeaponOcclusion.tif.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterSkybox.png.meta
+#	new file:   ProjectFiles/Assets/VRMenu/Textures/Shooter/ShooterTargetAlbedo.tif.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VRDeviceManager.cs.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VREyeRaycaster.cs.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VRFPSCounter.cs.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VRInput.cs.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VRInteractiveItem.cs.meta
+#	new file:   ProjectFiles/Assets/VRStandardAssets/Scripts/VRTrackingReset.cs.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_G.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Asteroid_H.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Black.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_G.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_H.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_I.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_J.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Galaxy_K.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_G.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_H.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_I.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_J.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_K.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Gas_Planet_L.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_AB.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_ABC.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_BC.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_BCD.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_CD.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_CDE.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_DE.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_DEF.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_EF.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Nebula_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_G.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_H.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_I.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_J.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_K.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_L.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_A1.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_A2.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_B1.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_B2.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_C1.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_C2.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_D1.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_D2.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_E1.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Planet_Ring_E2.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_A.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_B.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_C.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_D.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_E.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_F.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Skybox_G.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Dark_Blue.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Green.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Light_Blue.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Orange.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Pink.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Purple.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Red.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Turquoise.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_White.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Star_Yellow.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Sun.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Materials/Sun_Flames.mat.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Meshes.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Meshes/Asteroids.fbx.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Meshes/Galaxies_and_Nebulae.fbx.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Meshes/Planet_Rings.fbx.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_C.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_D.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_E.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_F.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_G.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Asteroids/Asteroid_H.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Galaxy_Large.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Galaxy_Medium.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Galaxy_Small.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Nebula_Large.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Nebula_Medium.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Nebula_Small.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_C.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_D.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_E.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Galaxies and Nebulae/Supernova_F.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Asteroids_Dense_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Asteroids_Dense_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Asteroids_Scattered_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Asteroids_Scattered_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Distant_Stars_Dense.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Distant_Stars_Scattered.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Nebula_Cloud.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Stars_Flyby_Fast.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Stars_Flyby_Medium.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Stars_Flyby_Slow.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Warp_Drive_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Warp_Drive_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Particle Effects/Warp_Drive_C.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_A1.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_A2.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_B1.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_B2.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_C1.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_C2.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_D1.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_D2.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_E1.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Planet_Rings/Planet_Ring_E2.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_A.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_B.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_C.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_D.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_E.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_F.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_G.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_H.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_I.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_J.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_K.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Planet_L.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Prefabs/Regular_Planets/Sun.prefab.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_A.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_B.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_C.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_D.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_E.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_F.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_G.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_H.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Asteroid_NRM.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Galaxy_A.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Galaxy_B.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Galaxy_D.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Galaxy_J.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Galaxy_K.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_B.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_BC.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_BCD.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_C.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_CD.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_CDE.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_D.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_DE.png.meta
+#	new file:   ProjectFiles/Assets/Vast Outer Space/Textures/Nebula_DEF.png.meta
+#	new file:   ProjectFiles/Assets/VolumeLight.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Materials.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Materials/Glow.mat.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Scripts.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Scripts/UVScroller.js.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Scripts/VLMouseOrbit.js.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Shader.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Shader/AdditiveMask.shader.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Texture.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Texture/RampWhiteFadeH_PSD.psd.meta
+#	new file:   ProjectFiles/Assets/VolumeLight/Texture/RampWhiteFade_PSD.psd.meta
+#	new file:   ProjectFiles/Assets/XInputDotNet.meta
+#	new file:   ProjectFiles/Assets/XInputDotNet/Examples.meta
+#	new file:   ProjectFiles/Assets/XInputDotNet/Examples/XInputTestCS.cs.meta
+#	new file:   ProjectFiles/Assets/XInputDotNet/MITLicense.txt.meta
+#	new file:   ProjectFiles/Assets/explosiveParts.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/FlyerAsteroidA.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/FlyerAsteroidB.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/FlyerAsteroidPieceA.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/FlyerAsteroidPieceB.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/FlyerAsteroidPieceC.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/Materials.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/Materials/FlyerAsteroid.mat.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/Materials/ShooterFPSGunFlare.mat.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/ShooterFPSWeaponFlare01.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/ShooterFPSWeaponFlare02.fbx.meta
+#	new file:   ProjectFiles/Assets/explosiveParts/ShooterFPSWeaponFlare03.fbx.meta
+#	new file:   ProjectFiles/Assets/finalTerrainBuild.unity.meta
+#	new file:   ProjectFiles/Assets/floor_template_1.fbx.meta
+#	new file:   ProjectFiles/Assets/hangar_room_main.blend.meta
+#	new file:   ProjectFiles/Assets/lightingTest.unity.meta
+#	new file:   ProjectFiles/Assets/powerRoomEarlyAlpha.fbx.meta
+#	new file:   ProjectFiles/Assets/tunnel_outside_corner_template_1.fbx.meta
+#	new file:   ProjectFiles/Assets/tunnel_pillar_template_1.fbx.meta
+#	new file:   ProjectFiles/Assets/tunnel_side_template_1.fbx.meta
+#
+
