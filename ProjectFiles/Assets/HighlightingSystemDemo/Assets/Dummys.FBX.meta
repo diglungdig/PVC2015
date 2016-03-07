@@ -3,8 +3,19 @@ guid: d547ef417c0014c4ead3d08bb9295ee9
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: TestingDummy1
+    100004: TestingDummy2
+    400000: //RootNode
+    400002: TestingDummy1
+    400004: TestingDummy2
+    2300000: TestingDummy1
+    2300002: TestingDummy2
+    3300000: TestingDummy1
+    3300002: TestingDummy2
     4300000: TestingDummy1
     4300002: TestingDummy2
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

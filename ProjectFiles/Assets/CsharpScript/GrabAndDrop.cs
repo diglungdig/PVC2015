@@ -74,8 +74,9 @@ public class GrabAndDrop : MonoBehaviour {
 
             GameObject.Find("InspectSystem").GetComponent<inspectSystem>().SendMessage("endInspect",grabbedObject);
 			grabbedObject.GetComponent<Rigidbody> ().velocity = Vector3.zero;
-			grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-			grabbedObject.transform.SetParent(null);
+            //grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+            grabbedObject.GetComponent<Rigidbody>().useGravity = true;
+            grabbedObject.transform.SetParent(null);
 			grabbedObject = null;
 			grabCheck = false;
             
@@ -89,7 +90,10 @@ public class GrabAndDrop : MonoBehaviour {
 
 		if(grabbedObject != null) {
             //store item into inventory 
-            grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
+            //grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
+            grabbedObject.GetComponent<Rigidbody>().useGravity = false;
+            //grabbedObject.transform.rotation = Quaternion.identity;
+            grabbedObject.transform.position = Vector3.Lerp(grabbedObject.transform.position, Camera.main.transform.position+ Camera.main.transform.forward * objectDistance, Time.deltaTime*4f);
 
             if (Input.GetKeyDown(KeyCode.E) || OVRInput.Get(OVRInput.Button.Four))
             {
@@ -106,6 +110,7 @@ public class GrabAndDrop : MonoBehaviour {
                     grabbedObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
                     grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
                     //grabbedObject.transform.SetParent(null);
+                    //grabbedObject.GetComponent<Rigidbody>().useGravity = false;
                     grabbedObject = null;
                     grabCheck = false;
                 }
