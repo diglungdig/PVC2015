@@ -12,6 +12,7 @@ public class AutoType : MonoBehaviour
     private Text thisText;
     private AudioSource thisAudio;
 
+    public bool debugSkipMode = false;
     // Use this for initialization
     void Start()
     {
@@ -19,7 +20,13 @@ public class AutoType : MonoBehaviour
         thisAudio = GetComponent<AudioSource>();
         message = thisText.text;
         thisText.text = "";
-        StartCoroutine(TypeText());
+
+        if(!debugSkipMode)
+            StartCoroutine(TypeText());
+        else
+        {
+            resume();
+        }
     }
 
     IEnumerator TypeText()
@@ -33,6 +40,11 @@ public class AutoType : MonoBehaviour
             yield return new WaitForSeconds(letterPause);
         }
         yield return new WaitForSeconds(4f);
+        resume();
+    }
+
+    void resume()
+    {
         GameObject.Find("CutSceneManager").SendMessage("disableGUICanvas");
         GameObject.Find("CutSceneManager").SendMessage("startCamFadingIn");
         GameObject.Find("CutSceneManager").SendMessage("resumeAllAnimations");
