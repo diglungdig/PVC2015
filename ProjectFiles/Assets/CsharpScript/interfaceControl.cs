@@ -13,18 +13,15 @@ public class interfaceControl : MonoBehaviour
     public GameObject reminderText;
 
     public Animator vkit;
-    public Rigidbody vkitRig;
-    //public Text mountText;
-
     public Animator canvasInitilization;
 
     public Transform parent;
     public Transform child;
-    public Transform environment;
     public Transform character;
     public Transform mapPanel;
     public Transform toolPanel;
     public Transform vkitHolder;
+    public Transform holderPosIndicator;
 
     private bool inputBlock = false;
 
@@ -35,6 +32,7 @@ public class interfaceControl : MonoBehaviour
     private Vector3 vkitLocalPos;
     public Vector3 vkitMountPos = new Vector3(0, 0f, -0.8f);
     private Vector3 mapLocalPos;
+    private Vector3 originalVkitPos;
     private Quaternion rot;
     private Quaternion vkitLocalRot;
 
@@ -57,7 +55,7 @@ public class interfaceControl : MonoBehaviour
 
         vkitLocalPos = GameObject.Find("vkit").GetComponent<Transform>().localPosition;
         vkitLocalRot = GameObject.Find("vkit").GetComponent<Transform>().localRotation;
-
+        originalVkitPos = vkitHolder.localPosition;
         mapLocalPos = mapPanel.localPosition;
     }
 
@@ -235,13 +233,15 @@ public class interfaceControl : MonoBehaviour
     void FixedUpdate()
     {
         RaycastHit hit;
-        if (Physics.Raycast(vkitHolder.position, Vector3.forward, out hit, 1f))
+        if (Physics.Raycast(holderPosIndicator.position, holderPosIndicator.TransformDirection(Vector3.forward), out hit, 1f))
         {
-            //vkitHolder.position = Vector3.Lerp(vkitHolder.position, vkitHolder.position.x - hit.distance; );
+            vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, new Vector3(originalVkitPos.x, originalVkitPos.y, originalVkitPos.z-hit.distance), 0.1f);
+            vkitHolder.GetComponent<arrowPointerCollisionCheck>().notInsideWall();
         }
-        else
+        else if (vkit.GetCurrentAnimatorStateInfo(0).IsName("default"))
         {
-            
+            vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, originalVkitPos, 0.1f);
+            vkitHolder.GetComponent<arrowPointerCollisionCheck>().InsideWall();
         }
     }
 
@@ -293,12 +293,10 @@ public class interfaceControl : MonoBehaviour
 
             if (hitE)
             {
-                transform.SetParent(environment);
-                //mountText.enabled = false;
+                //transform.SetParent(environment);
             }
             else {
                 transform.SetParent(character);
-                //mountText.enabled = true;
                 transform.localPosition = Vector3.Lerp(transform.localPosition, vkitMountPos, 0.1f);
                 transform.localRotation = Quaternion.Lerp(transform.localRotation, Quaternion.identity, 0.1f);
             }
@@ -319,13 +317,12 @@ public class interfaceControl : MonoBehaviour
                 }
                 else {
 
+                    Debug.Log("heress");
                     transform.localPosition = Vector3.Lerp(transform.localPosition, pos, 0.1f);
                     //vkit.transform.localPosition = Vector3.Lerp(vkit.transform.localPosition, vkitLocalPos, 0.1f);
 
                 }
                 transform.localRotation = rot;
-                //!!
-                //vkit.transform.localRotation = vkitLocalRot;
             }
 
 
