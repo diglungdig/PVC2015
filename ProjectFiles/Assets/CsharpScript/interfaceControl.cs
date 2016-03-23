@@ -24,6 +24,7 @@ public class interfaceControl : MonoBehaviour
     public Transform character;
     public Transform mapPanel;
     public Transform toolPanel;
+    public Transform vkitHolder;
 
     private bool inputBlock = false;
 
@@ -230,6 +231,19 @@ public class interfaceControl : MonoBehaviour
     }
 
     //all the functions above have np
+
+    void FixedUpdate()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(vkitHolder.position, Vector3.forward, out hit, 1f))
+        {
+            //vkitHolder.position = Vector3.Lerp(vkitHolder.position, vkitHolder.position.x - hit.distance; );
+        }
+        else
+        {
+            
+        }
+    }
 
     void Update()
     {
