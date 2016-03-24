@@ -37,14 +37,14 @@ public class arrowPointerCollisionCheck : MonoBehaviour {
 
     void OnTriggerExit(Collider sth)
     {
-        int index = 0;
-        foreach (Renderer e in GetComponentsInChildren<Renderer>())
-        {
-            e.material = originalMats[index];
-            index++;
-        }
-        Debug.Log("in the trigger");
-        StartCoroutine(scale(false));
+            int index = 0;
+            foreach (Renderer e in GetComponentsInChildren<Renderer>())
+            {
+                e.material = originalMats[index];
+                index++;
+            }
+            Debug.Log("in the trigger");
+            StartCoroutine(scale(false));
     }
 
     IEnumerator scale(bool k)

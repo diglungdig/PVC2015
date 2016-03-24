@@ -236,12 +236,22 @@ public class interfaceControl : MonoBehaviour
         if (Physics.Raycast(holderPosIndicator.position, holderPosIndicator.TransformDirection(Vector3.forward), out hit, 1f))
         {
             vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, new Vector3(originalVkitPos.x, originalVkitPos.y, originalVkitPos.z-hit.distance), 0.1f);
-            vkitHolder.GetComponent<arrowPointerCollisionCheck>().notInsideWall();
+        }
+        else if (Physics.Raycast(holderPosIndicator.position, holderPosIndicator.TransformDirection(Vector3.back), out hit, 1f))
+        {
+            vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, new Vector3(originalVkitPos.x, originalVkitPos.y, originalVkitPos.z + hit.distance), 0.1f);
+        }
+        else if (Physics.Raycast(holderPosIndicator.position, holderPosIndicator.TransformDirection(Vector3.left), out hit, 1f))
+        {
+            vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, new Vector3(originalVkitPos.x + hit.distance, originalVkitPos.y, originalVkitPos.z), 0.1f);
+        }
+        else if (Physics.Raycast(holderPosIndicator.position, holderPosIndicator.TransformDirection(Vector3.right), out hit, 1f))
+        {
+            vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, new Vector3(originalVkitPos.x - hit.distance, originalVkitPos.y, originalVkitPos.z), 0.1f);
         }
         else if (vkit.GetCurrentAnimatorStateInfo(0).IsName("default"))
         {
             vkitHolder.localPosition = Vector3.Lerp(vkitHolder.localPosition, originalVkitPos, 0.1f);
-            vkitHolder.GetComponent<arrowPointerCollisionCheck>().InsideWall();
         }
     }
 
