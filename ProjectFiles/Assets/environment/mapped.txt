@@ -1,0 +1,4 @@
+Everything in this list has a UV mapping. If it is not in this list, assume it does not have a map, or the map still needs work.
+
+Mapped:
+ceilingLight.obj
