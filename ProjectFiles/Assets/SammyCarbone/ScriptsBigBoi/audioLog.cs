@@ -8,7 +8,7 @@ public class audioLog : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (!GetComponent<AudioSource>().isPlaying)
             {
@@ -19,6 +19,5 @@ public class audioLog : MonoBehaviour
                 GetComponent<AudioSource>().Pause();
             }
         }
-        Debug.Log("Ayy lmao");
     }
 }
