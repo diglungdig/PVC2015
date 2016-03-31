@@ -6,9 +6,7 @@ public class interfaceControl : MonoBehaviour
 {
 
     public GameObject panel;
-    public GameObject mappanel;
     public GameObject itempanel;
-    public GameObject toolpanel;
     public GameObject borders;
     public GameObject reminderText;
 
@@ -18,14 +16,11 @@ public class interfaceControl : MonoBehaviour
     public Transform parent;
     public Transform child;
     public Transform character;
-    public Transform mapPanel;
-    public Transform toolPanel;
+
     public Transform vkitHolder;
     public Transform holderPosIndicator;
 
     private bool inputBlock = false;
-
-    public Animation panelFade;
     public Animation itemshown;
 
     private Vector3 pos;
@@ -56,90 +51,10 @@ public class interfaceControl : MonoBehaviour
         vkitLocalPos = GameObject.Find("vkit").GetComponent<Transform>().localPosition;
         vkitLocalRot = GameObject.Find("vkit").GetComponent<Transform>().localRotation;
         originalVkitPos = vkitHolder.localPosition;
-        mapLocalPos = mapPanel.localPosition;
     }
-
-
-    //tools button
-    public void mouseHoverOnTools()
-    {
-        if (clickedInventory == false && clickedMap == false)
-        {
-            playerhoverTools = true;
-            if (!clickedTools)
-            {
-                panelFade.Play();
-            }
-        }
-    }
-    public void mouseExitOnTools()
-    {
-        if (clickedTools == false && clickedInventory == false && clickedMap == false)
-        {
-            playerhoverTools = false;
-            panelFade.Play("panelFadein");
-        }
-
-    }
-    public void mouseClickOnTools()
-    {
-        playerhoverTools = true;
-        if (clickedInventory)
-        {
-            clickedInventory = false;
-            mouseExitOnInventory();
-        }
-        if (clickedMap)
-        {
-            clickedMap = false;
-            playerhoverMap = false;
-        }
-        clickedTools = !clickedTools;
-
-
-    }
-
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    //map button
-    public void mouseHoverOnMap()
-    {
-        if (clickedInventory == false && !clickedTools)
-        {
-            playerhoverMap = true;
-            if (clickedMap == false)
-            {
-                panelFade.Play();
-            }
-        }
-    }
-
-    public void mouseExitOnMap()
-    {
-        if (clickedMap == false && clickedInventory == false && !clickedTools)
-        {
-            playerhoverMap = false;
-            panelFade.Play("panelFadein");
-        }
-    }
-    public void mouseClickOnMap()
-    {
-        playerhoverMap = true;
-        if (clickedInventory)
-        {
-            clickedInventory = false;
-            mouseExitOnInventory();
-        }
-        if (clickedTools)
-        {
-            clickedTools = false;
-            playerhoverTools = false;
-        }
-        clickedMap = !clickedMap;
-
-    }
-
-    //inventory button
+    //inventory button(deperacated)
     public void mouseHoverOnInventory()
     {
         if (!itempanel.activeInHierarchy && clickedMap == false && !clickedTools)
@@ -150,7 +65,6 @@ public class interfaceControl : MonoBehaviour
             itemshown["cubeRot"].speed = 0.5f;
             itemshown.Blend("cubeRot");
             itemshown.Play();
-            panelFade.Play();
         }
     }
     public void mouseExitOnInventory()
@@ -159,13 +73,6 @@ public class interfaceControl : MonoBehaviour
         if (clickedInventory == false && clickedMap == false && !clickedTools)
         {
             itemshown.Play("cubeBack");
-
-            panelFade.Play("panelFadein");
-
-            if (playerhoverMap || playerhoverTools)
-            {
-                panelFade.Play();
-            }
 
             if (itempanel.activeInHierarchy)
             {
@@ -178,12 +85,10 @@ public class interfaceControl : MonoBehaviour
         if (clickedMap)
         {
             clickedMap = false;
-            mouseExitOnMap();
         }
         if (clickedTools)
         {
             clickedTools = false;
-            mouseExitOnTools();
         }
 
         clickedInventory = !clickedInventory;
@@ -191,9 +96,10 @@ public class interfaceControl : MonoBehaviour
         {
             mouseHoverOnInventory();
         }
-
-        //itempanel.SetActive(true);
     }
+
+
+    //item
     public void mouseClickOnItem(int num)
     {
         Debug.Log("click on item " + num);
@@ -216,7 +122,7 @@ public class interfaceControl : MonoBehaviour
     IEnumerator DelayforCanvasEnd()
     {
         canvasInitilization.SetTrigger("startInitilaze");
-        StartCoroutine(DelayCloseUp(3f, borders));
+        StartCoroutine(DelayCloseUp(5f, borders));
         yield return new WaitForSeconds(2f);
         vkit.SetBool("playerHitTab", playerClickedTab);
     }
@@ -262,10 +168,10 @@ public class interfaceControl : MonoBehaviour
         {
             //open Vkit
             //collision check if there is anything in front of the player that can block the robot
-
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 5) && !playerClickedTab)
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5, 5) && !playerClickedTab)
             {
-                //Debug.Log("Hit something!");
+                Debug.Log(hit.transform.gameObject.name);
                 StartCoroutine(DelayforReminder());
             }
             else {
@@ -295,6 +201,7 @@ public class interfaceControl : MonoBehaviour
             //activate panel and set the parent to FPScontroler so that the y axis is freezed
             inputBlock = false;
             panel.SetActive(true);
+            mouseHoverOnInventory();
             //transform.SetParent(parent);
             if (Input.GetKeyDown(KeyCode.E) || OVRInput.GetDown(OVRInput.Button.Four))
             {
@@ -314,9 +221,10 @@ public class interfaceControl : MonoBehaviour
         }
         else {
             //deactivate panel and set the parent back to camera
+            mouseExitOnInventory();
             panel.SetActive(false);
             transform.SetParent(child);
-
+            
 
             if (vkit.GetCurrentAnimatorStateInfo(0).IsName("default"))
             {
@@ -342,31 +250,5 @@ public class interfaceControl : MonoBehaviour
         {
             vkit.transform.localEulerAngles = new Vector3(0f, -160f, 0f);
         }
-
-        if (playerhoverMap == true)
-        {
-            mapPanel.localPosition = Vector3.Lerp(mapPanel.localPosition, Vector3.zero, 0.2f);
-            mappanel.SetActive(true);
-        }
-        else {
-            mapPanel.localPosition = Vector3.Lerp(mapPanel.localPosition, mapLocalPos, 0.2f);
-
-            if (Vector3.Distance(mapPanel.localPosition, mapLocalPos) < 0.01f)
-                mappanel.SetActive(false);
-        }
-
-        if (playerhoverTools)
-        {
-            toolPanel.localPosition = Vector3.Lerp(toolPanel.localPosition, Vector3.zero, 0.2f);
-            toolpanel.SetActive(true);
-        }
-        else
-        {
-            toolPanel.localPosition = Vector3.Lerp(toolPanel.localPosition, mapLocalPos, 0.2f);
-
-            if (Vector3.Distance(toolPanel.localPosition, mapLocalPos) < 0.01f)
-                toolpanel.SetActive(false);
-        }
-
     }
 }

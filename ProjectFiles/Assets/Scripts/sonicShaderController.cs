@@ -8,6 +8,8 @@ public class sonicShaderController : MonoBehaviour {
 	public float value = 0f;
 	public float vel = 0.05f;
 
+    public float cap = 0.3f;
+    public float min = 0.3f;
 	//if the light can breath or not
 	public bool breathing = true;
 
@@ -23,15 +25,15 @@ public class sonicShaderController : MonoBehaviour {
 		
 		if (switchOnOff) {
 			if (breathing) {
-				if (value >= 0.05f) {
-					value = 0.05f;
-					vel = -0.05f;
+				if (value >= cap) {
+					value = cap;
+					vel = -cap;
 				} else if (value <= 0f) {
 					value = 0f;
-					vel = 0.05f;
+					vel = cap;
 				}
 				value = value + Time.deltaTime * vel;
-				thisMaterial.SetFloat ("_EmissionGain", 0.48f + value);
+				thisMaterial.SetFloat ("_EmissionGain", min + value);
 		
 			}
 		} 
@@ -42,7 +44,7 @@ public class sonicShaderController : MonoBehaviour {
 			StartCoroutine (turningOnAnimation());
 		} else {
 			switchOnOff = true;
-			thisMaterial.SetFloat ("_EmissionGain", 0.48f);
+			thisMaterial.SetFloat ("_EmissionGain", min);
 		}
 	}
 	public void setLightOff(){
@@ -55,6 +57,6 @@ public class sonicShaderController : MonoBehaviour {
 		GetComponent<Animator> ().SetTrigger ("lightOn");
 		yield return new WaitForSeconds(GetComponent<Animation> ().clip.length);
 		switchOnOff = true;
-		thisMaterial.SetFloat ("_EmissionGain", 0.48f);
+		thisMaterial.SetFloat ("_EmissionGain", min);
 	}
 }

@@ -34,12 +34,12 @@ public class buttonActive : MonoBehaviour {
         if (actived && (Input.GetMouseButtonDown(0) || OVRInput.GetDown(OVRInput.Button.One)))
         {
             clickTheButton();
-            if (thisButtonIs == buttonType.Map)
-                interControl.mouseClickOnMap();
+            if (thisButtonIs == buttonType.Map) { }
+            //interControl.mouseClickOnMap();
             else if (thisButtonIs == buttonType.Inventory)
                 interControl.mouseClickOnInventory();
-            else if (thisButtonIs == buttonType.Tools)
-                interControl.mouseClickOnTools();
+            else if (thisButtonIs == buttonType.Tools) { }
+                //interControl.mouseClickOnTools();
         }
 	}
 }
