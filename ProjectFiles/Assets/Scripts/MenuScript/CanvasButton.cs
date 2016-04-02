@@ -11,7 +11,7 @@ namespace VRStandardAssets.Menu
 
 
         public event Action<CanvasButton> OnButtonSelected;                   // This event is triggered when the selection of the button has finished.
-
+        public Canvas associatedCanvas;
         public bool BackButton = false;
         public bool SceneLoadingButton = false;
 
@@ -77,11 +77,11 @@ namespace VRStandardAssets.Menu
             {
                 if (gameObject.transform.parent.parent.name == "HazardGame")
                 {
-                    gameObject.transform.parent.parent.gameObject.GetComponent<MenuItemPopout>().overrideBool = false;
+                    associatedCanvas.transform.parent.gameObject.GetComponent<MenuItemPopout>().overrideBool = false;
                 }
                 Camera.main.transform.parent.GetComponent<Animator>().SetBool("GotoCanvas", false);
                 yield return new WaitForSeconds(2f);
-                transform.parent.gameObject.SetActive(false);
+                associatedCanvas.transform.gameObject.SetActive(false);
 
             }
             else if (SceneLoadingButton)
