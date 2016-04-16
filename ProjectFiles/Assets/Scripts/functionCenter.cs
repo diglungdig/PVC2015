@@ -11,6 +11,8 @@ public class functionCenter : MonoBehaviour {
     public timeSlowController timeContl;
     public GameObject timeSlowKit;
 
+    public GameObject audioPlayer;
+
     public void startFunction(GameObject grabbed)
     {
         if(grabbed.GetComponent<item>().description == "Nostromo Kit Buddy")
@@ -27,11 +29,11 @@ public class functionCenter : MonoBehaviour {
             timeContl.enabled = true;
             timeSlowKit.SetActive(true);
         }
+        else if (grabbed.GetComponent<item>().description.Contains("Audio Log"))
+        {
+            audioPlayer.GetComponent<HazardAudioPlayer>().attachClipAndPlay(grabbed.GetComponent<AudioSource>().clip);
+        }
 
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
