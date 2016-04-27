@@ -3,3 +3,4 @@ Everything in this list has a UV mapping. If it is not in this list, assume it d
 Mapped:
 ceilingLight.obj
 powerBoxSmall.obj
+bigPipe1.obj
