@@ -1,6 +1,14 @@
 Everything in this list has a UV mapping. If it is not in this list, assume it does not have a map, or the map still needs work.
+The words tex at the side represent that a texture has been made and the UV map has been adjusted to be perfect.
+*Shares same map
 
 Mapped:
 ceilingLight.obj
 powerBoxSmall.obj
 bigPipe1.obj
+bigPipe2.obj
+bigPipe3.obj
+ceilingPipe.obj
+*smallPipeLong.obj
+*smallPipeSingle.obj
+steelBeam.obj
